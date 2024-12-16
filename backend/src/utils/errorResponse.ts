@@ -1,0 +1,14 @@
+class ErrorResponse extends Error {
+    statusCode: number;
+  
+    constructor(message: string, statusCode: number) {
+      super(message);
+      this.statusCode = statusCode;
+  
+      // Set the prototype explicitly to avoid issues in some environments
+      Object.setPrototypeOf(this, ErrorResponse.prototype);
+    }
+  }
+  
+  export default ErrorResponse;
+  
