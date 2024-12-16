@@ -1,5 +1,5 @@
-#Welcome to the user manager website
-#Here a simple CRUD and password reset has been implemented
+Welcome to the user manager website
+Here a simple CRUD and password reset has been implemented
 
 Tools and Technology
 Backend: NodeJS with Typescript and MongoDb
